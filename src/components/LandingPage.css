@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+.landingPage__main {
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.landingPage__main video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.landingPage__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+}
+
+
+.landingPage__content {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-top: 4rem;
+}
+
+.landingPage__content h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4vw;
+    color: white;
+}
+
+.landingPage__content h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 2rem;
+}
+
+.landingPage__content button {
+    font-size: 1.3vw;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(90deg, #93329e,#f14668);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,143 @@
+.videoGrid {
+    width: 100%;
+    height: max-content;
+    margin-top: 10vh;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 3vh;
+  }
+  
+  .videoGrid__header {
+    text-align: center;
+    color: #2b353e;
+    font-size: 1.5vw;
+    font-weight: 700;
+  }
+  .videoGrid__header h1 {
+    font-weight: 900;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-top: 2rem;
+  }
+  
+  .video-grid-1 {
+    width: 15vw;
+    height: 15vw;
+    overflow: hidden;
+  }
+  
+  .video-grid-2 {
+    width: 30vw;
+    height: 15vw;
+    overflow: hidden;
+  }
+  
+  .video-grid-3 {
+    width: 10vw;
+    height: 15vw;
+    overflow: hidden;
+  }
+  
+  .video-grid-1 video,
+  .video-grid-2 video,
+  .video-grid-3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .grid-circle {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: #3bc6ff;
+    position: absolute;
+  }
+  
+  .one {
+    top: 12%;
+    left: 36.5%;
+    width: 1vw;
+    height: 1vw;
+  }
+  
+  .ten {
+    top: 2%;
+    left: 3%;
+    width: 1vw;
+    height: 1vw;
+    background: #fd5177;
+  }
+  .two {
+    top: 65%;
+    left: -0.7%;
+    width: 1.3vw;
+    height: 1.3vw;
+    background: #05f08e;
+  }
+  .three {
+    top: 60%;
+    left: 10%;
+    width: 1.2vw;
+    height: 1.2vw;
+    background: #fd5177;
+  }
+  .four {
+    top: 30%;
+    left: 94%;
+    width: 1vw;
+    height: 1vw;
+    background: #05f08e;
+  }
+  .five {
+    top: 65%;
+    left: 90%;
+    width: 1.1vw;
+    height: 1.1vw;
+    background: #ff9649;
+  }
+  .six {
+    top: 20%;
+    left: -1%;
+    width: 1.5vw;
+    height: 1.5vw;
+    background: #ff9649;
+  }
+  .seven {
+    top: 55%;
+    left: 50%;
+    width: 1.3vw;
+    height: 1.3vw;
+    background: #fd5177;
+  }
+  .eight {
+    top: 3%;
+    left: 79%;
+    width: 1.4vw;
+    height: 1.4vw;
+    background: #ff9649;
+  }
+  .nine {
+    top: 13%;
+    left: 19%;
+    width: 1.2vw;
+    height: 1.2vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .videoGrid {
+      display: none;
+    }
+  }

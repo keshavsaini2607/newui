@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+.footer__main {
+    width: 100%;
+    height: 40vh;
+    background: black;
+}
+
+.footer {
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__up {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+#footer__heading {
+    font-size: 1.5vw;
+    cursor: default;
+}
+
+.footer__explore, .footer__help, .social__media {
+    display: flex;
+    flex-direction: column;
+}
+.footer__explore span, .footer__help span, .social__media span {
+    color: white;
+    font-size: 1vw;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.footer__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer__down span {
+    color: white;
+}
+
+#footer__main__heading {
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.social__media span {
+    margin-top: 1rem;
+    cursor: pointer;
+    color: rgb(194, 194, 194);
+  }
+  .social__media__icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+
+  .linkedin {
+    border: 1px solid white;
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s all ease;
+    text-decoration: none !important;
+    color: white;
+  }
+  
+ 
+  
+  .linkedin {
+    font-size: 1.5rem !important;
+  }
+  .linkedin:hover {
+    background: white;
+    color: blue;
+  }
+
+  .instagram:hover {
+    color: red;
+  }
+  

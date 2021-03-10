@@ -1,0 +1,146 @@
+
+.contactUs {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn.pixabay.com/photo/2020/11/01/21/45/architecture-5705042_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 4rem 0; */
+    /* height: 70vh; */
+    min-width: 50vh;
+  }
+  
+  .contact__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: max-content; */
+    height: 70vh;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .map {
+    width: 40%;
+    height: 50vh;
+  }
+  .map iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form__contact {
+    width: 40%;
+    height: 50vh;
+    background: white;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__contact h1 {
+    font-size: 1.5vw;
+    color: #2b353e;
+    margin-bottom: 1rem;
+  }
+  
+  .form__contact input {
+    padding: 0.3rem 1rem;
+    font-size: 1vw;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 1px solid #1b4087;
+  }
+  
+  .form__contact textarea {
+    font-size: 1rem;
+    border: 1px solid #1b4087;
+    outline: none;
+    padding: 0 1rem;
+  }
+  
+  .form__contact button {
+    padding: 0.3rem 1rem;
+    width: 40%;
+    margin-top: 1rem;
+    font-size: 1vw;
+    cursor: pointer;
+    background: #1b4087;
+    border-radius: 4px;
+    color: white;
+    border: none;
+  }
+  
+  .user__info__contact {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .user__info__contact input {
+    width: 49.5%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contactUs {
+      height: 100vh;
+      padding: 2rem 0;
+      min-width: none;
+      width: 100%;
+    }
+    .contact__box {
+      flex-direction: column;
+      height: 90%;
+      width: 100%;
+    }
+    .form__contact h1 {
+      font-size: 6vw;
+      margin-bottom: 0.5rem;
+    }
+    .map {
+      display: none;
+    }
+    .form__contact {
+      width: 80%;
+      height: 90vh;
+      padding: 1rem;
+    }
+    .user__info {
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .user__info input {
+      width: 100%;
+    }
+  
+    .user__info__contact {
+      flex-direction: column;
+    }
+    .user__info__contact input {
+      width: 100%;
+    }
+    .form__contact textarea,
+    .form__contact input,
+    .form__contact button {
+      font-size: 4vw;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Ipad pro s tyle only */
+  
+  @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .contact__box {
+      height: 50vh;
+    }
+    .map {
+      display: none;
+    }
+    .contact__box {
+      width: 100%;
+    }
+    .form__contact {
+      width: 70%;
+      height: max-content;
+    }
+  }

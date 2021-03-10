@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.companyIntro {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companyIntro__content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+.companyIntro__content h1 {
+  font-size: 2.5vw;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #2b353e;
+}
+.companyIntro__content p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Mulish", sans-serif;
+}
+
+.editorCompany {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editorCompany img {
+  margin-top: 3rem;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .companyIntro {
+    height: max-content;
+    margin: 0;
+    padding: 1rem;
+  }
+  .companyIntro__content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .companyIntro__content h1 {
+    font-size: 8vw;
+  }
+  .companyIntro__content p {
+    font-size: 4vw;
+    text-align: justify;
+  }
+  .editorCompany img {
+    width: 100%;
+  }
+  #small__photo {
+    width: 200px;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  #small__photo {
+    width: 300px;
+  }
+}
